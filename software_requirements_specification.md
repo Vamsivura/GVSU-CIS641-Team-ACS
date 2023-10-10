@@ -1,6 +1,6 @@
 # Overview
 
-<The Online Doctor Appointment system improves healthcare efficiency, offering patient convenience and aiding practice management for healthcare providers. Vital functional requirements are crucial for constructing a reliable, user-friendly system that enhances the overall healthcare experience.>
+The Online Doctor Appointment system improves healthcare efficiency, offering patient convenience and aiding practice management for healthcare providers. Vital functional requirements are crucial for constructing a reliable, user-friendly system that enhances the overall healthcare experience.
 
 # Functional Requirements
 1.Accounts should be able to be created by patients and doctors using their personal data.
