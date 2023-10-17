@@ -91,7 +91,10 @@ button:hover {
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
-
+.header-right-side img {
+  width: 100%;
+  height: 100%;
+}
 .list{
   color: white;
   padding-left: 30px;
