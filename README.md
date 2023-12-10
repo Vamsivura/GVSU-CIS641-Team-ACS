@@ -21,17 +21,18 @@ Software Requirements:
     Install MySQL if not already installed. You can Download it from the official MySQL website.(https://dev.mysql.com/downloads/workbench/)
 
 Steps:
+
 Clone the Repository: (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS.git)
 
 Database Setup:
 
 * Use MySQL Workbench or any MySQL client to create a database.
-* Import the SQL dump file provided in database folder () into the created database.
+* Import the SQL dump file provided in database folder (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/tree/main/docs/Database) into the created database.
 * Update database connection settings in the application's configuration file (config.properties file if you are using eclipse and  application.properties file for database connection).
 
 Running instructions:
 
-Import Project into Eclipse/STS from ()
+Import Project into Eclipse/STS from (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/tree/main/docs/code)
 
 * Open Eclipse/STS.
 * Import the cloned project into your workspace.

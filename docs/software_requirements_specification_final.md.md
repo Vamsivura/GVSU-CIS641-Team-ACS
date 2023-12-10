@@ -47,7 +47,7 @@
 | FR17 | <Doctors shall securely access patient records during consultations> |
 | FR18 | <Users shall attend the appointment from video call option> |
 | FR19 | <Users shall have access to their prescription history and previous consultations> |
-| FR20| <Profile updates made by both doctors and users shall reflect immediately in appointment scheduling> |
+| FR20 | <Profile updates made by both doctors and users shall reflect immediately in appointment scheduling> |
 
 ### <5.Admin and Doctor Profile>
 | ID  | Requirement |
@@ -121,21 +121,21 @@
 | NFR11 | <The system shall feature a user-friendly interface with intuitive navigation> |
 | NFR12 | <Adherence to accessibility standards (WCAG) for users with disabilities shall be ensured> |
 | NFR13 | <Compatibility across multiple browsers and devices like desktop, mobile and tablet shall be maintained> |
-| NFR14 | <Error handling and informative messages shall guide users effectively> |
+| NFR14 | <Error handling and informative messages after/during updates shall guide users effectively to perform correct actions> |
 | NFR15 | <UI/UX improvements based on user feedback shall be prioritized> |
 
-### <Language and Localization>
+### <4.Language and Localization>
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR16| <Multilingual support for users from diverse linguistic backgrounds shall be available> |
+| NFR16| <Multilingual support for users from diverse linguistic backgrounds especially for elder patients shall be available> |
 | NFR17| <Localization of the system to adapt to regional date formats, currencies  shall be implemented> |
 | NFR18| <Easy language switching within the platform shall be facilitated> |
 | NFR19| <Support for Right-to-Left (RTL) languages where applicable shall be provided> |
 | NFR20| <Translation and localization of content and user interfaces shall be ensured> |
 
 
-### <Optimization>
+### <5.Optimization>
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -171,73 +171,75 @@ To ensure the discovered issues are resolved ,We will maintain a detailed log of
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | User login | FR2 |
-| UseCase2| View Doctor Availability | FR11 |
-| UseCase3| Attend Video Call | FR11 |
-| UseCase4 | Search Particular Specialist | FR11 |
-| UseCase5 | Booking Appointment | FR6,FR9,FR26|
-| UseCase6 | manage/cancel Appointment| FR6,FR28 |
-| UseCase7 | edit password| FR16 |
-| UseCase8 | make payment| FR22,FR23,FR24|
+| UseCase1 | User login (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf) | FR2,FR5 |
+| UseCase2| View Doctor Availability(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf) | FR11,FR12,FR33,FR14 |
+| UseCase3| Attend Video Call(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf) | FR11,FR32 |
+| UseCase4 | Search Particular Specialist(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf) | FR11 |
+| UseCase5 | Booking Appointment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf) | FR6,FR9,FR26|
+| UseCase6 | manage/cancel Appointment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf)| FR6,FR28 |
+| UseCase7 | edit password(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf)| FR16,FR4,FR20,FR34 |
+| UseCase8 | make payment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf)|FR26, FR27,FR28,FR29|
 
 ## Doctor Use Case Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1| Doctor login | FR2|
-| UseCase2| Attend Video call | FR2|
-| UseCase3 | View current appointment | FR18|
-| UseCase4 | View patient medical record | FR17 |
-| UseCase5| Update Patient information| FR18 |
-| UseCase6| As an admin view/manage/cancel Appointment| FR7,FR28 |
+| UseCase1| Doctor login(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf) | FR2,FR5 |
+| UseCase2| Attend Video call (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)| FR21,FR32,FR30|
+| UseCase3 | View current appointment (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)| FR10,FR23,FR31,FR33|
+| UseCase4 | View patient medical record(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf) | FR17 |
+| UseCase5| Update Patient information(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)| FR23,FR35 |
+| UseCase6| As an admin view/manage/cancel Appointment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)| FR7,FR33 |
 
 
 ## Doctor Activity Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | Doctor login | FR2,NF6,NF10|
-| 2 | Modify personal details | FR22,FR10|
-| 3 | View patient medical record | FR17 |
-| 4 | Update Patient information| FR18 |
-| 5 | As an admin add doctor| FR24 |
-| 5 | As an admin add Specialist to appointment| FR25|
-| 6 | As assign a doctor incase of unavailability| TBD|
-| 7 | As an admin delete/edit doctor details| FR24 |
+| 1 | Doctor login (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| FR2,FR5,NFR6,NFR10,NFR9|
+| 2 | Modify personal details(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf) | FR22,FR10,FR20,FR24|
+| 3 | View patient medical record(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf) | FR17 |
+| 4 | Update Patient information(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| FR23,FR35,NFR14|
+| 5 | As an admin add doctor(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| FR24 ,FR13|
+| 5 | As an admin add Specialist to appointment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| FR25,FR13|
+| 6 | As assign a doctor incase of unavailability(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| TBD|
+| 7 | As an admin delete/edit doctor details(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)| FR24 ,NFR14|
 
 ## User Activity Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | User login | FR2,NF6,NF10|
-| 2 | book/reschedule/cancel the appointment | FR18,FR9,FR26,FR28|
-| 3 | View bill| FR17 |
+| 1 | User login (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/User_Activity%20diagram.pdf)| FR2,FR5,NFR6,NFR9,NFR10|
+| 2 | book/reschedule/cancel the appointment(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/User_Activity%20diagram.pdf) | FR6,FR12,FR33|
+| 3 | View bill(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/User_Activity%20diagram.pdf)| FR27,FR29,FR19|
 
-## Class Diagram Traceability----------
+## Class Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | Check Patient Report/Check Patient Condition methods in Doctor Class | FR17,FR23 |
-| 2 | book Appointment/Make Payment/Check Doctor Availability/Cancel Appointment/View Profile methods in Patient Class|FR21,FR22,FR23,FR6,FR9,FR26,FR11,FR19,FR20,NFR7|
-| 3 | View Patient Record/manage and delete appointment/assign doctor methods in Admin class| FR7,FR24,FR25 |
-| 4 | generate payment details method in Payment class| FR21,FR22,FR23,FR24,FR25|
+| 1 | Doctor Class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf) | FR10,FR13,FR17,FR20,FR21,FR22,FR23,FR30,FR31,FR32,FR36,FR37,NFR6,NFR8,NFR9,NFR10 |
+| 2 | Patient Class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)|FR1,FR2,FR3,FR6,FR11,FR15,FR8,FR18,FR19,FR20,FR33,FR34,FR36,FR39,NFR1,NFR6,NFR9,NFR10,NFR11,NFR12,NFR14,NFR15,NFR16|
+| 3 | Admin class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)| FR7,FR24,FR25,FR38|
+| 4 | Payment class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)| FR14,FR26,FR29,FR30,NFR7|
+| 5 | Appointment class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)| FR6,FR7,FR8,FR9,FR10,FR16,FR18,FR20,FR21,FR23,FR25,FR27,FR31,FR33,NFR2|
+| 6 | Specialist class(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)|FR25|
 
 
 ## User Window Navigation Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | User registration | FR1,FR3 |
-| 2 | User login|FR2,NF6,NF10|
-| 3 | search and View list of doctors| FR11|
+| 1 | User registration(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf) | FR1,FR3 |
+| 2 | User login(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)|FR2,FR5,NFR6,NFR9,NFR10 |
+| 3 | search and View list of doctors(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)| FR11,FR14 |
 
 ## Doctor Window Navigation Diagram Traceability
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 
-| 1 | User login|FR2,NF6,NF10|
-| 2 | View list of appointments| FR21 |
+| 1 | User login(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)|FR2,FR5,NFR6,NFR9,NFR10|
+| 2 | View list of appointments(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)| FR23 |
 
 
 
@@ -245,13 +247,17 @@ To ensure the discovered issues are resolved ,We will maintain a detailed log of
 
 <This section contains a number of software artifacts associated with the project, offering an easy way to find the files or documents that support the SRS.>
 
-* [Doctor_Usecasediagram](to_some_file.pdf)
-* [patient_Usecasediagram](to_some_file.pdf)
-* [Classdiagram](to_some_file.pdf)
-* [Object_diagram](to_some_file.pdf)
-* [Window_navigation_diagrams](to_some_file.pdf)
-* [Database](to_some_file.pdf)
-* [Project_Code](to_some_file.pdf)
+* [Doctor Usecasediagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)
+* [patient/User Usecasediagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf)
+* [Classdiagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Classdiagram.pdf)
+* [Object_diagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Object_diagram.pdf)
+* [CRC document](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/TeamACS_OnlineDoctorAppointment_crc.pdf)
+* [Window navigation diagrams](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)
+* [Database Tables](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/docs/Database/List_of_db_tables.pdf)
+* [Project Code](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/docs/code/OnlineDoctorAppointment.zip)
+* [Doctor Activity Diagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Activity%20diagram.pdf)
+* [User Activity Diagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/User_Activity%20diagram.pdf)
+
 
 
 
