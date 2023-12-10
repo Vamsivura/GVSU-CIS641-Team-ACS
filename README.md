@@ -22,7 +22,9 @@
 
 ## Installation Steps:
 
-### Clone the Repository: (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS.git)
+### Clone the Repository:  
+
+(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS.git)
 
 ### Database Setup:
 
