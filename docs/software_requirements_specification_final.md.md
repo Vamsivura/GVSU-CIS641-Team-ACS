@@ -1,14 +1,14 @@
 # Overview
 
-<The purpose of this Software Requirements Specification (SRS) document is to provide a comprehensive understanding of the requirements for the development of Online Doctor Appointment Application. The main purpose of this SRS is to provide deatils of the functional and non-functional requirements, change management plan, traceability links, and artifacts associated with the development process>
+The purpose of this Software Requirements Specification (SRS) document is to provide a comprehensive understanding of the requirements for the development of Online Doctor Appointment Application. The main purpose of this SRS is to provide deatils of the functional and non-functional requirements, change management plan, traceability links, and artifacts associated with the development process
 
 # Software Requirements
 
-<The two primary sections of this section, Functional Requirements and Non-Functional Requirements, outlines the fundamental requirements for developing the Online Doctor Appointment Application>
+The two primary sections of this section, Functional Requirements and Non-Functional Requirements, outlines the fundamental requirements for developing the Online Doctor Appointment Application
 
 ## Functional Requirements
 
-### <1.	User Registration and Login> 
+### 1.	User Registration and Login 
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -19,7 +19,7 @@
 | FR5 | <The System shall lock the accounts after multiple invalid login agttempts> |
 
 
-### <2.Appointment Management>
+### 2.Appointment Management
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -29,7 +29,7 @@
 | FR9 | <The system shall send confirmations and reminders for scheduled appointments> |
 | FR10| <Doctors shall be able to update their availability and modify appointment slots> |
 
-### <3.Search and Selection of Doctors>
+### 3.Search and Selection of Doctors
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -39,7 +39,7 @@
 | FR14 | <Filtering options shall be available for doctors based on insurance acceptance or payment methods> |
 | FR15 | <Users shall have the ability to save the preferred doctors for future appointments> |
 
-### <4.User Profile and Medical Records>
+### 4.User Profile and Medical Records
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -49,7 +49,7 @@
 | FR19 | <Users shall have access to their prescription history and previous consultations> |
 | FR20 | <Profile updates made by both doctors and users shall reflect immediately in appointment scheduling> |
 
-### <5.Admin and Doctor Profile>
+### 5.Admin and Doctor Profile
 | ID  | Requirement |
 | :-------------: | :----------: |
 | FR21 | <Doctors shall attend the appointment from video call option> |
@@ -58,7 +58,7 @@
 | FR24 | <Admin shall add a new doctor and delete and edit the existing doctor's details> |
 | FR25 | <Admin shall add specialist to appointment upon patient's request> |
 
-### <6.Payment>
+### 6.Payment
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -68,7 +68,7 @@
 | FR29 | <Automated payment reminders shall be sent for pending bills> |
 | FR30 | <Doctors shall have the capability to set consultation fees or accept insurance payments> |
 
-### <7.Notifications and Communication>
+### 7.Notifications and Communication
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -78,7 +78,7 @@
 | FR34 | <Users shall have the option to enable notifications via email, SMS, or mobile app notifications> |
 | FR35 | <Notifications shall be sent for prescription updates or changes in medical records> |
 
-### <8.Feedback and Rating System>
+### 8.Feedback and Rating System
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -94,7 +94,7 @@
 
 ## Non-Functional Requirements
 
-### <1.Scalability and Performance>
+### 1.Scalability and Performance
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -104,7 +104,7 @@
 | NFR4 | <Load balancing mechanisms shall distribute server load effectively> |
 | NFR5 | <Regular performance testing shall optimize system efficiency> |
 
-### <2.	Security and Compliance>
+### 2.	Security and Compliance
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -114,7 +114,7 @@
 | NFR9 | <Role-based access control shall manage user privileges securely> |
 | NFR10 | <Multi factor authentication feature shall be provided by the system during login to improve security> |
 
-### <3.Accessibility>
+### 3.Accessibility
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -124,7 +124,7 @@
 | NFR14 | <Error handling and informative messages after/during updates shall guide users effectively to perform correct actions> |
 | NFR15 | <UI/UX improvements based on user feedback shall be prioritized> |
 
-### <4.Language and Localization>
+### 4.Language and Localization
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -135,7 +135,7 @@
 | NFR20| <Translation and localization of content and user interfaces shall be ensured> |
 
 
-### <5.Optimization>
+### 5.Optimization
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -150,8 +150,7 @@
 
 # Change management plan
 
-<The techniques and approaches for integrating the software into the business operations are described in this section. It addresses topics including problem solving, adaption techniques, incorporation into the existing ecosystem, and training.
->
+The techniques and approaches for integrating the software into the business operations are described in this section. It addresses topics including problem solving, adaption techniques, incorporation into the existing ecosystem, and training.
 
 ## How will you train people to use it?
 We have customized training plan which is required for the our application to be successfully integrated. In order to identify the specific training necessary for administrators, doctors, and patients, our plan involves thorough requirements assessment for each role. To train the new users, we'll develop customized training modules that include video lectures, user guides, and workshops designed for particular roles. Additionally, we will conduct Hands-on Workshops which will provide interactive practice sessions and demonstrations for in-depth understanding of the functionalities of Online Doctor Appointment Application.
@@ -165,7 +164,7 @@ To ensure the discovered issues are resolved ,We will maintain a detailed log of
 
 # Traceability links
 
-<The connections between various artifacts and the associated requirements are described in this section, which provides traceability throughout the software development life cycle. Links to Use Case, Class Diagram,Activity Diagram,Object diagram,and Window Navigation Diagram as well as their impact on specific requirements is listed.>
+The connections between various artifacts and the associated requirements are described in this section, which provides traceability throughout the software development life cycle. Links to Use Case, Class Diagram,Activity Diagram,Object diagram,and Window Navigation Diagram as well as their impact on specific requirements is listed.
 
 ## User Use Case Diagram Traceability
 
@@ -245,7 +244,7 @@ To ensure the discovered issues are resolved ,We will maintain a detailed log of
 
 # Software Artifacts
 
-<This section contains a number of software artifacts associated with the project, offering an easy way to find the files or documents that support the SRS.>
+This section contains a number of software artifacts associated with the project, offering an easy way to find the files or documents that support the SRS.
 
 * [Doctor Usecasediagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/Doctor_Usecasediagram.pdf)
 * [patient/User Usecasediagram](https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/patient_Usecasediagram.pdf)
