@@ -26,12 +26,12 @@ Clone the Repository: (https://github.com/Vamsivura/GVSU-CIS641-Team-ACS.git)
 Database Setup:
 
 * Use MySQL Workbench or any MySQL client to create a database.
-* Import the SQL dump file provided in /database directory into the created database.
+* Import the SQL dump file provided in database folder () into the created database.
 * Update database connection settings in the application's configuration file (config.properties file if you are using eclipse and  application.properties file for database connection).
 
 Running instructions:
 
-Import Project into Eclipse/STS:
+Import Project into Eclipse/STS from ()
 
 * Open Eclipse/STS.
 * Import the cloned project into your workspace.
@@ -41,7 +41,7 @@ Configure Tomcat Server:
 * If not automatically configured, add the Tomcat server in Eclipse/STS.
 * Set the server runtime environment and necessary configurations.
 
-
+To run the Application:
 
 Right-click on the project in Eclipse/STS.
 Choose "Run As"  > "Run on Server" option.
@@ -49,6 +49,5 @@ Select the configured Tomcat server to run the application.
 
 Access the Application:
 
-Once the server starts successfully, open a web browser.
 our application will be opened in your default browser by tomcat.
 Navigate through the UI screens designed using HTML to explore our application functionalities.
