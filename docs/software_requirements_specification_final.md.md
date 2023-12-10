@@ -236,7 +236,6 @@ The connections between various artifacts and the associated requirements are de
 
 | Artifact ID  | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-
 | 1 | User login(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)|FR2,FR5,NFR6,NFR9,NFR10|
 | 2 | View list of appointments(https://github.com/Vamsivura/GVSU-CIS641-Team-ACS/blob/main/Artifacts/HCI-Window%20Navigation%20Diagrams/Window_navigation_diagrams.pdf)| FR23 |
 
